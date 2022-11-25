@@ -1,5 +1,9 @@
 html {
-    background-color: #B9C4C9;
+    background-color: #2A3132;
+}
+
+* {
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 .button-group {
@@ -26,10 +30,9 @@ body {
 }
 
 .all {
-    background-color: #52958B;
     margin-left: 8%;
     margin-right: 8%;
-    padding: 3%;
+    padding: 10px;
 }
 
 h1 {
@@ -38,10 +41,10 @@ h1 {
 
 
 footer {
-    background-color: #004D47;
+    background-color: #90AFC5;
     color: white;
     padding: 2%;
-    margin-top: 5%;
+    margin: 0;
     width: 100%;
 }
 
@@ -61,10 +64,5 @@ nav li {
 }
 
 .pages {
-    width: 80%;
-    margin: 0 auto;
-}
-
-header {
-    background-color: #52958B;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), url(/media/1429490.jpg));
 }
