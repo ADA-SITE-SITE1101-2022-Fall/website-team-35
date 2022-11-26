@@ -15,7 +15,11 @@ html {
 }
 
 a {
-    color: rgb(127, 209, 212);
+    color: #90AFC5;
+}
+
+.link {
+    text-decoration: none;
 }
 
 a:hover {
@@ -34,7 +38,10 @@ body {
 .all {
     margin-left: 8%;
     margin-right: 8%;
-    padding: 10px;
+    padding: 25px;
+    background-color: #404b4c;
+    box-shadow: 10px 10px 5px #353e3f;
+    border-radius: 30px;
 }
 
 h1 {
@@ -68,7 +75,9 @@ span {
     background-size: cover;
     background-position: center;
     width: 100%;
+    margin-bottom: 30px;
     margin-top: 0;
+    height: 250px;
 }
 
 .logo {
@@ -102,5 +111,9 @@ footer {
 
 .emails {
     font-size: 13px;
+    text-align: center;
+}
+
+.form {
     text-align: center;
 }
