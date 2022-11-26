@@ -1,5 +1,6 @@
 html {
     background-color: #2A3132;
+    height: calc(100% - navbarpx);
 }
 
 * {
@@ -13,20 +14,16 @@ html {
     overflow: hidden;
 }
 
+a {
+    color: rgb(127, 209, 212);
+}
+
+a:hover {
+    color: rgb(87, 147, 149);
+}
+
 body {
     color: white;
-}
-
-.button {
-    padding: 10px 16px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    border-right: 1px solid grey;
-}
-
-.button:last-child {
-    border-right: none;
 }
 
 .all {
@@ -39,30 +36,55 @@ h1 {
     text-align: center;
 }
 
+nav ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    margin: 60px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #E04220;
+}
+
+span {
+    color: #E04220;
+}
+
+.pages {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../website-team-35/media/header.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin: 0;
+}
+
+.logo {
+    color: white;
+    font-size: 25px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
 footer {
-    background-color: #90AFC5;
+    background-color: #336B87;
     color: white;
     padding: 2%;
     margin: 0;
     width: 100%;
-}
-
-.topnav a {
-    float: left;
-}
-
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-nav li {
-    display: inline-block;
-    margin: 70px;
-}
-
-.pages {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), url(/media/1429490.jpg));
+    height: 60%;
 }
