@@ -1,5 +1,6 @@
 html {
     background-color: #2A3132;
+    height: calc(100% - navbarpx);
 }
 
 * {
@@ -11,6 +12,14 @@ html {
     border: 1px solid grey;
     border-radius: 4px;
     overflow: hidden;
+}
+
+a {
+    color: rgb(127, 209, 212);
+}
+
+a:hover {
+    color: rgb(87, 147, 149);
 }
 
 body {
@@ -32,12 +41,13 @@ nav ul li {
     padding: 0;
     list-style: none;
     display: inline-block;
-    margin: 70px;
+    margin: 60px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-size: 20px;
 }
 
 nav ul li a:hover {
@@ -49,7 +59,7 @@ span {
 }
 
 .pages {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../website-team-35/1428490.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../website-team-35/media/header.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -58,7 +68,7 @@ span {
 
 .logo {
     color: white;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 nav {
