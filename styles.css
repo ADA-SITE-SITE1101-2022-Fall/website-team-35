@@ -51,7 +51,7 @@ span {
     width: 100%;
     margin-bottom: 30px;
     margin-top: 0;
-    height: 250px;
+    height: 230px;
 }
 
 .logo {
@@ -105,9 +105,15 @@ footer {
     text-align: center;
 }
 
-/* little things */
-.center {
-    text-align: center;
+/* table */
+table, th, td {
+    border: 1px solid;
+    padding: 15px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* ada page */
@@ -142,5 +148,10 @@ footer {
 }
 
 .worldclass {
+    text-align: center;
+}
+
+/* little things */
+.center {
     text-align: center;
 }
