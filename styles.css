@@ -11,8 +11,8 @@ html {
 .all {
     margin-left: 8%;
     margin-right: 8%;
-    padding: 25px;
-    background-color: #404b4c;
+    padding: 35px;
+    background-color: #275369;
     box-shadow: 10px 10px 5px #353e3f;
     border-radius: 30px;
 }
@@ -64,7 +64,7 @@ span {
 }
 
 .pages {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../website-team-35/media/header.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(media/nav.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -146,10 +146,12 @@ table {
 .photosofus {
     float: left;
     margin-right: 30px;
+    box-shadow: 0px 0px 10px #232931;
 }
 
 .photoofus2 {
     float: right;
+    box-shadow: 0px 0px 10px #232931;
 }
 .textabus {
     overflow: hidden;
@@ -164,7 +166,7 @@ table {
     text-align: right;
 }
 
-.littletext {
+.textabus .littletext {
     font-size: 10px;
 }
 
@@ -206,4 +208,22 @@ table {
 /* little things */
 .center {
     text-align: center;
+} 
+
+.left {
+    float: left;
+    width: 50%;
+    margin-right: 40px;
+    margin-left: 60px;
+}
+
+.right {
+    overflow: hidden;
+    box-shadow: 0px 0px 10px #232931;
+    margin-bottom: 60px;
+}
+
+.hello {
+    margin-bottom: 50px;
+
 }
