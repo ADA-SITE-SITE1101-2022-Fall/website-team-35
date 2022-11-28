@@ -22,6 +22,7 @@ html {
 }
 
 /* navigation bar */
+
 nav ul li {
     margin: 0;
     padding: 0;
@@ -31,9 +32,27 @@ nav ul li {
 }
 
 nav ul li a {
+    position: relative;
     color: white;
     text-decoration: none;
     font-size: 20px;
+    transition: 0.3s ease-out;
+    padding-bottom: 5px;
+}
+nav ul li a::before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    height: 2px;
+    width: 0;
+    background-color: #E04220;
+    transition: 0.3s ease-out;
+
+}
+nav ul li a:hover::before{
+    left: 0;
+    width: 100%;
 }
 
 nav ul li a:hover {
@@ -105,7 +124,7 @@ footer {
     text-align: center;
 }
 
-/* table */
+/* about us page */
 table, th, td {
     border: 1px solid;
     padding: 15px;
@@ -114,6 +133,39 @@ table, th, td {
 table {
     margin-left: auto;
     margin-right: auto;
+}
+
+.pics {
+    margin-left: 730px;
+}
+
+.text {
+    text-align: right;
+}
+
+.photosofus {
+    float: left;
+    margin-right: 30px;
+}
+
+.photoofus2 {
+    float: right;
+}
+.textabus {
+    overflow: hidden;
+    height: 400px;
+}
+
+.textabus2 {
+    overflow: hidden;
+    height: 400px;
+    float: left;
+    width: 67%;
+    text-align: right;
+}
+
+.littletext {
+    font-size: 10px;
 }
 
 /* ada page */
