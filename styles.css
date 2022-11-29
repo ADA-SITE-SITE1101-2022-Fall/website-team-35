@@ -23,6 +23,10 @@ html {
     font-size: 18px;
 }
 
+.center {
+    text-align: center;
+} 
+
 /* navigation bar */
 
 nav ul li {
@@ -266,31 +270,13 @@ table {
 
 /* hour of code page */
 
-video {
+.video {
     display: block;
     margin: auto;
     border: 0;
     padding: 0;
+    margin-top: 30px;
 }
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-    overflow: scroll;
-  }
-
-  .column {
-    flex: 25%;
-    max-width: 24%;
-    padding: 0 4px;
-  }
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-  }
 
   .left2 {
     float: left;
@@ -335,8 +321,17 @@ video {
   margin: 2px;
 }
 
-/* little things */
+/* javascript */
 
-.center {
-    text-align: center;
-} 
+.top-button {
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    font-size: 30px;
+    opacity: 0;
+    transition: 0.3s ease-in;
+}
+
+.active {
+    opacity: 1;
+}
