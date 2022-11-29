@@ -1,10 +1,11 @@
 /* for everything */
+
 * {
     font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 html {
-    background-color: #2A3132;
+    background-image: linear-gradient(180deg, rgb(166, 166, 166), rgb(113, 112, 112));
     height: calc(100% - navbarpx);
 }
 
@@ -13,8 +14,9 @@ html {
     margin-right: 8%;
     padding: 35px;
     background-color: #275369;
-    box-shadow: 10px 10px 5px #353e3f;
+    box-shadow: 0px 0px 10px #232931;
     border-radius: 30px;
+    text-align: justify;
 }
 
 .all p {
@@ -48,11 +50,20 @@ nav ul li a::before{
     width: 0;
     background-color: #E04220;
     transition: 0.3s ease-out;
-
 }
+
 nav ul li a:hover::before{
     left: 0;
     width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 nav ul li a:hover {
@@ -78,25 +89,16 @@ span {
     font-size: 25px;
 }
 
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 40px;
-    padding-left: 5%;
-    padding-right: 5%;
+a {
+    color: #9cc0da;
 }
 
-a {
-    color: #90AFC5;
+a:hover {
+    color: rgb(105, 175, 178);
 }
 
 .link {
     text-decoration: none;
-}
-
-a:hover {
-    color: rgb(87, 147, 149);
 }
 
 body {
@@ -109,6 +111,7 @@ body {
 }
 
 /* footer */
+
 footer {
     background-color: #336B87;
     color: white;
@@ -124,7 +127,41 @@ footer {
     text-align: center;
 }
 
+/* homepage */
+
+.left {
+    float: left;
+    width: 50%;
+    margin-right: 40px;
+    margin-left: 60px;
+}
+
+.right {
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.hello {
+    margin-bottom: 65px;
+}
+
+.hourofcode {
+    float: left;
+    width: 40%;
+    margin-right: 70px;
+    margin-left: 60px;
+}
+
+.introduction img {
+    overflow: hidden;
+    height: 100%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px #232931;
+}
+
 /* about us page */
+
 table, th, td {
     border: 1px solid;
     padding: 15px;
@@ -156,6 +193,7 @@ table {
 .textabus {
     overflow: hidden;
     height: 400px;
+    text-align: initial;
 }
 
 .textabus2 {
@@ -170,7 +208,19 @@ table {
     font-size: 10px;
 }
 
+.webproject {
+    width: 49%;
+    float: left;
+    margin: 0px 90px;
+}
+
+.listofaccs {
+    overflow: hidden;
+    height: 250px;
+}
+
 /* ada page */
+
 .formlogo {
     text-align: center;
 }
@@ -205,25 +255,88 @@ table {
     text-align: center;
 }
 
+.adaparag {
+    text-align: justify;
+    padding: 15px 40px;
+}
+
+.adapic {
+    margin-left: 40px;
+}
+
+/* hour of code page */
+
+video {
+    display: block;
+    margin: auto;
+    border: 0;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    overflow: scroll;
+  }
+
+  .column {
+    flex: 25%;
+    max-width: 24%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  .left2 {
+    float: left;
+    width: 50%;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+.right2 {
+    overflow: hidden;
+    box-shadow: 0px 0px 10px #232931;
+    margin-top: 70px;
+    margin-bottom: 140px;
+}
+
+.ourevent {
+    padding: 50px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.collage {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	max-width: 900px;
+}
+.collagetext {
+	padding: 20px;
+	background: #2993df;
+	border-radius: 3px;
+	font-size: 1.5rem;
+	width: 300px;
+	margin: 2px;
+}
+.collage img {
+  height: 200px;
+  flex-grow: 1;
+  object-fit: cover;
+  margin: 2px;
+}
+
 /* little things */
+
 .center {
     text-align: center;
 } 
-
-.left {
-    float: left;
-    width: 50%;
-    margin-right: 40px;
-    margin-left: 60px;
-}
-
-.right {
-    overflow: hidden;
-    box-shadow: 0px 0px 10px #232931;
-    margin-bottom: 60px;
-}
-
-.hello {
-    margin-bottom: 50px;
-
-}
